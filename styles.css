@@ -1,0 +1,218 @@
+body {
+    background-color: orangered;
+    color: antiquewhite;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+a {
+    color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    margin-top: 5rem;
+    border-bottom: 2px solid black;
+
+}
+
+#nav-bar-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+#nav-bar {
+    margin: 2em;
+}
+.nav-bar-text {
+    margin: 5em;
+}
+
+#start-page-container {
+    align-items: center;
+}
+
+
+
+#start-page-img {
+    position: relative;
+    left: 15%;
+    height: 80%;
+    width: 35%;
+}
+
+#start-page-text {
+    margin-left: 2em;
+    font-size: larger;
+}
+
+.header {
+    position: relative;
+    top: 0%;
+    left: 50%;
+
+}
+
+#about-me-text {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding-right: 15%;
+    font-size: x-large;
+}
+
+#about-me-img {
+    margin-right: 10%;
+    margin-top: 10%;
+    left: 20%;
+    height: 80%;
+    width: 60%;
+}
+
+#skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    justify-content: center;
+}
+
+#skills {
+    margin-top: 5rem;
+    width: 100%;
+    grid-column: span 3;
+    left: 48%;
+}
+
+.grid-column-item {
+    display: flex;
+    justify-content: center;
+    margin-top: 7em;
+}
+
+.skills-text {
+    position: relative;
+    top: 10%;
+    right: 50%;
+}
+
+#languages-text {
+    right: 25%;
+    margin-top: 4em;
+}
+
+#frameworks-text {
+    right: 40%;
+    margin-top: 4em;
+}
+
+#learning-text {
+    right: 23%;
+    margin-top: 4em;
+}
+
+li {
+    margin: 2em;
+    font-size: larger;
+}
+
+#languages-header {
+    position: relative;
+    left: 10%;
+}
+
+#frameworks-header {
+    position: relative;
+    left: 10%;
+}
+
+#learning-header {
+    position: relative;
+    left: 10%;
+}
+
+#td-img {
+    width: 100%;
+    height: 45%;
+}
+
+#rick-and-morty-img {
+    width: 100%;
+    height: 45%;
+}
+
+#blog-img {
+    width: 100%;
+    height: 45%;
+}
+
+#projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    justify-content: center;
+    font-size: larger;
+}
+
+#projects {
+    position: relative;
+    left: 45%;
+    margin-top: 5rem;
+    width: 100%;
+    grid-column: span 3;
+
+}
+
+#game-project {
+    margin: 4em;
+    transition: transform 0.3s;
+}
+
+#rick-and-morty-project {
+    margin: 4em;
+    transition: transform 0.3s;
+}
+
+#blog-website {
+    margin: 4em;
+    transition: transform 0.3s;
+}
+
+#game-project:hover {
+    transform: scale(1.2);
+}
+
+#rick-and-morty-project:hover {
+    transform: scale(1.2);
+}
+
+#blog-website:hover {
+    transform: scale(1.2);
+}
+
+#contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    justify-content: center;
+    grid-gap: 5em;
+}
+
+#contact {
+    position: relative;
+    left: 45%;
+    margin-top: 5rem;
+    width: 100%;
+    grid-column: span 3;
+}
+
+.contacts {
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
+
+
+
+
+
